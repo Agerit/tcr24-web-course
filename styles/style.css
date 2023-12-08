@@ -51,11 +51,12 @@ main {
     overflow: hidden;
 }
 
-.navbar a {
+.navbar li a {
+    display: block;
     color: #cfcfcf;
-    text-decoration: none;
-    display: inline-block;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -66,4 +67,26 @@ main {
     float: left;
     width: 25%;
     font-size: 20px;
+}
+
+footer {
+    /* Add your styles for the footer here */
+    width: 100%;
+    height: 10%;
+    background-color: #2e2d38;
+    color: #cfcfcf;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-icons {
+    width: 15px;
+}
+
+.footer-links-logo {
+    width: 50px;
 }
